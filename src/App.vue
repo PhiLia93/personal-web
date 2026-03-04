@@ -9,7 +9,7 @@
   </BG>
 </template>
 
-<script setup lang="ts">
+<script setup>
   import { RouterView } from 'vue-router';
   import BG from '@/components/bg.vue'
   import MENU from '@/components/menu.vue'

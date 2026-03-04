@@ -29,7 +29,7 @@
 <!---------------分隔线-------------分隔线------------分隔线----------------------->
 
 
-<script setup lang="ts" name = "bg">
+<script setup name = "bg">
 
     import Firefly from '@/components/firefly.vue'
     import logoSrc from '@/item/logo.png'
