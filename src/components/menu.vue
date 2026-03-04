@@ -22,7 +22,7 @@
 <!---------------分隔线-------------分隔线------------分隔线----------------------->
 
 
-<script setup lang="ts" name = "menu">
+<script setup name = "menu">
 
     //菜单列表
     const menuItems = [

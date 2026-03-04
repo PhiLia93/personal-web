@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script setup lang="ts" name = "firefly">
+<script setup name = "firefly">
 import { ref, onMounted, onUnmounted } from 'vue'
 
 // ========== 配置区（在此调整所有参数）==========

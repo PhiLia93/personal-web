@@ -17,7 +17,7 @@
 <!---------------分隔线-------------分隔线------------分隔线----------------------->
 
 
-<script setup lang="ts" name = "bgm">
+<script setup name = "bgm">
 
     import {ref} from 'vue';
     //所有的资源一定要import，不然不生效
