@@ -83,6 +83,8 @@
       border-right: 3px solid rgb(150, 150, 150);
       /* 给个0.2s的渐变效果 */
       transition: all 0.2s ease-in-out;
+      /* 给鼠标换个点击样式 */
+      cursor: pointer;
     }
     .button_container.active{
       width: 150px;
@@ -97,6 +99,7 @@
       );
       border-right: 3px solid rgb(0, 212, 255);
       transition: all 0.2s ease-in-out;
+      cursor: pointer;
     }
 
     /* 字体的未激活与激活样式 */
@@ -106,11 +109,13 @@
         margin-left: 20px;
         margin-top: 10px;
         transition: all 0.2s ease-in-out;
+        cursor: pointer;
     }
     .content.active{
         color: #28cbf8;
         margin-left: 0;
         transition: all 0.2s ease-in-out;
+        cursor: pointer;
     }
 
 </style>
