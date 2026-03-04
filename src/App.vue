@@ -1,6 +1,6 @@
 <template>
   <BG>
-    <BGM></BGM>
+    <!-- <BGM></BGM> -->
     <MENU></MENU>
     <div class="route_content">
       <!-- 路由页面展示区 -->
