@@ -9,13 +9,13 @@
     <!-- 标题 -->
     <h1 class="title_cn">个人项目</h1>
     <h1 class="title_l">|</h1>
-    <h1 class="title_en">PROJECT</h1>
+    <h1 class="title_en">ARCHIVE</h1>
     <img :src="aclogoSrc" alt="aclogo" class="aclogo" />
     <!-- 菜单logo -->
     <h1 class="logo_menu">MENU</h1>
     <!-- 背景logo -->
     <h1 class="logo1_bg">PERSONAL</h1>
-    <h1 class="logo2_bg">PROJECT</h1>
+    <h1 class="logo2_bg">ARCHIVE</h1>
 
     <!-- 加入荧光 -->
     <Firefly />
@@ -51,9 +51,9 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      /* overflow: hidden; */
+      /* overflow: visible; */
       /* 让页面顶部有点点渐变白 */
-      background: linear-gradient(180deg, #262626 0%, #1a1a1a 100%);
+      background: linear-gradient(180deg, #262626 0%, #1a1a1a 100%) border-box;
     }
     
     /* 这里title和logo还有其它元素都要加绝对位置，不然会顶到 */
@@ -61,10 +61,10 @@
     .title_cn {
       position: absolute;
       color: #ffffff;
-      opacity: 0.3;     /* 透明度 */
+      opacity: 0.3;       /* 透明度 */
       margin-left: 300px; /* 往右挪点 */
       margin-top: 33px;   /* 往下挪点 */
-      font-size: 20px;  /* 改下字体大小 */
+      font-size: 20px;    /* 改下字体大小 */
     }
     .title_l {
       position: absolute;
@@ -118,7 +118,7 @@
       position: absolute;
       color: #ffffff;
       opacity: 0.03;  
-      margin-left: 1065px; 
+      margin-left: 1089px; 
       margin-top: 185px;  
       font-size: 100px; 
     }
